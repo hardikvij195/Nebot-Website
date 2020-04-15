@@ -1057,7 +1057,7 @@ footer .contact-form button.filled-button:hover {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 230px 0px 150px 0px;
+	padding: 150px 50px 50px 50px;
 	color: #fff;
 }
 
@@ -1191,7 +1191,8 @@ footer .contact-form button.filled-button:hover {
 /* Contact Information */
 
 .contact-information {
-	margin-top: 140px;
+	margin-top: 50px;
+	margin-bottom: 50px ;
 }
 
 .contact-information .contact-item {
