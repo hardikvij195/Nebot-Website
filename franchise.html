@@ -9,7 +9,7 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>NeBot - Contact Page</title>
+    <title>NeBot - Franchise</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -76,13 +76,13 @@ https://templatemo.com/tm-545-finance-business
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About Us</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item ">
                 <a class="nav-link" href="services.html">Our Services</a>
               </li>
-			   <li class="nav-item">
-                <a class="nav-link" href="franchise.html">Franchisee</a>
+			   <li class="nav-item active">
+                <a class="nav-link" href="franchise.html">Franchise</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
             </ul>
@@ -96,43 +96,102 @@ https://templatemo.com/tm-545-finance-business
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>Contact Us</h1>
-            <span>feel free to send us a message now!</span>
+            <h1>Franchise</h1>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="contact-information">
+    <div class="single-services">
+      <div class="container">
+        <div class="row" id="tabs">
+          <div class="col-md-4">
+            <ul>
+              <li><a href='#tabs-1'>IT Solutions <i class="fa fa-angle-right"></i></a></li>
+              <li><a href='#tabs-2'>Help <i class="fa fa-angle-right"></i></a></li>
+              <li><a href='#tabs-3'>Social Awarness <i class="fa fa-angle-right"></i></a></li>
+              <li><a href='#tabs-4'>Franchise <i class="fa fa-angle-right"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-8">
+            <section class='tabs-content'>
+              <article id='tabs-1'>
+                <img src="assets/images/single_service_01.jpg" alt="">
+                <h4>IT Solutions</h4>
+                <p>NEBOT Pvt Ltd provides IT solutions to the schools of Nepal connected to the company for free, this IT solution will help to improve the school business environment, our IT solution will provide the power to is organization to take the direct control over the attendance of the student as well as teachers. School can easily access the review of the student and the parents for the  improvement of the schools , school can share their notice via IT solution.</p>
+              </article>
+              <article id='tabs-2'>
+                <img src="assets/images/single_service_02.jpg" alt="">
+                <h4>Help</h4>
+                <p>NEBOT will help faculty of the school teaching any other subject if the faculty member demands any help from the team member of NEBOT for the better understanding of the related subject, NEBOT will be happy to help them 24*7.</p>
+              </article>
+              <article id='tabs-3'>
+                <img src="assets/images/single_service_03.jpg" alt="">
+                <h4>Social Awarness</h4>
+                <p>NEBOT is an responsible organization of the society. NEBOT feel it’s on responsibility towards society so, our company conduct social awareness program for the welfare of the society. If any other organization or an individual wants to conduct the social awareness program our company will always ready to help you for free.</p>
+              </article>
+              <article id='tabs-4'>
+                <img src="assets/images/single_service_04.jpg" alt="">
+                <h4>Franchise</h4>
+                <p>Robotics and STEM business opportunity presents an innovative way of doing business while creating child prodigies. Here we harness the child’s creativity and innovative ability and teach them Science, Technology, Engineering and Mathematics in fun manner. Most of the high paying careers are available in the STEM domain. Entering into STEM isn’t just a great way to get a good job.</p>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	 <div class="callback-form callback-services">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <div class="contact-item">
-              <i class="fa fa-phone"></i>
-              <h4>Phone</h4>
-              <a>+91-9205658773</a>
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Request a <em>call back</em></h2>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="contact-item">
-              <i class="fa fa-envelope"></i>
-              <h4>Email</h4>
-              <a>NebotInfo@gmail.com</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="contact-item">
-              <i class="fa fa-map-marker"></i>
-              <h4>Location</h4>
-              <a>Nepal, Lalitpur, Kusunti ,<br> Near Ekantakuna</a>
+          <div class="col-md-12">
+            <div class="contact-form">
+              <form id="contact" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="border-button">Send Message</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-   
-      <footer>
+	<br><br>
+
+
+
+    <!-- Footer Starts Here -->
+    <footer>
       <div class="container">
         <div class="row">
           <div class="col-md footer-item">
@@ -151,17 +210,14 @@ https://templatemo.com/tm-545-finance-business
             <ul class="menu-list">
               <li><a href="index.html">Home</a></li>
 			  <li><a href="about.html">About Us</a></li>
-			  <li><a href="services.html">Our Services</a></li>
-			  
-			  <li><a href="franchise.html">Franchisee</a></li>
               <li><a href="howwework.html">How We Work</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
               <li><a href="privacypolicy.html">Privacy Policy</a></li>
             </ul>
         </div>
       </div>
     </footer>
-
-
+    
     <div class="sub-footer">
       <div class="container">
         <div class="row">
